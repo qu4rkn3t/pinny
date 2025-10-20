@@ -1,0 +1,11 @@
+# PINN ODE SOLVER - single run configuration
+
+run_params:
+  problem_class: "HarmonicOscillator"
+  model_class: "ResNetMLP"
+  learning_rate: 0.001
+  width: 128
+  hidden_dim: 4
+  activation: "SiLU"
+  ode_loss_weight: 5.0
+  ic_loss_weight: 1.0
